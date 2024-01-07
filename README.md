@@ -72,6 +72,7 @@ Welcome to Movie Memo App, an Android application developed in Java that enhance
 ## Demo Video
 
 Check out the [Demo Video](img/MymovieApp.mp4) to get a visual walkthrough of the Movie Memo App in action.
+![Demo GIF](img/img/MymovieApp.gif)
 
 ## Screenshots
 
