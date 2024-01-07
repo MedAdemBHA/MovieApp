@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <EditText
+        android:id="@+id/update_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_border"
+
+        android:gravity="top"
+        android:paddingLeft="7dp"
+        android:hint="Enter your Note here"
+        android:layout_marginBottom="5dp"
+        android:inputType="text|textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/update_Time"
+        android:layout_width="match_parent"                    android:layout_height="48dp"
+        android:background="@drawable/rounded_border"
+
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Select Time"
+        android:inputType="none"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="7dp"
+        android:onClick="showTimePickerDialogDialoge" />
+
+    <EditText
+        android:id="@+id/update_Date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:paddingLeft="7dp"
+        android:focusable="false"
+        android:background="@drawable/rounded_border"
+
+        android:hint="Select Date"
+        android:inputType="none"
+        android:onClick="showDatePickerDialogDialoge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>
