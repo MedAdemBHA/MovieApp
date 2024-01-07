@@ -91,6 +91,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For inquiries or support, contact [your email address].
+For inquiries or support, contact [mohamedadembelhadjamor@gmail.com
+].
 
 ---
